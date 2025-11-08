@@ -1,6 +1,6 @@
 # Evice Blockchain (Evice-Blockchain-Tendermint-19s)
 
-A high-performance L1 blockchain built in Rust, featuring a native ZK-Rollup L2, WASM smart contracts, and post-quantum (Dilithium2) signatures.
+A robust Layer 1 blockchain built in Rust, designed for security and extensibility. It features a native ZK-Rollup (L2) for high throughput, WASM smart contracts, and next-generation post-quantum (Dilithium2) signatures.
 
 This project is an advanced, full-featured blockchain node implementing a custom BFT consensus, a complete Layer 2 rollup solution, and next-generation cryptography.
 
@@ -121,3 +121,4 @@ target/debug/create_tx --l1-rpc-url [http://127.0.0.1:8080](http://127.0.0.1:808
     * Peer-to-Peer: libp2p (Gossipsub, Kademlia)
     * RPC: tonic (gRPC) & prost
     * Database: parity-db & trie-db (Merkle-Patricia Trie)
+
