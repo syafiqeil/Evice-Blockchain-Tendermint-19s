@@ -1,0 +1,11 @@
+[package]
+name = "evice-contract-sdk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+evice-core = { path = "../evice-core" }
+ark-std = { workspace = true }
+spin = { workspace = true }
+serde = { workspace = true }
+borsh = { workspace = true }
