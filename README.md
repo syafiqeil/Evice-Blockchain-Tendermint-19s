@@ -108,6 +108,7 @@ target/debug/create_tx --l1-rpc-url [http://127.0.0.1:8080](http://127.0.0.1:808
     --recipient '0x...' \
     --amount 100 \
     --nonce 0
+```
 
 ## 💻 Technology Stack
     * Core Logic: Rust, Tokio
@@ -121,4 +122,5 @@ target/debug/create_tx --l1-rpc-url [http://127.0.0.1:8080](http://127.0.0.1:808
     * Peer-to-Peer: libp2p (Gossipsub, Kademlia)
     * RPC: tonic (gRPC) & prost
     * Database: parity-db & trie-db (Merkle-Patricia Trie)
+
 
