@@ -111,16 +111,17 @@ target/debug/create_tx --l1-rpc-url [http://127.0.0.1:8080](http://127.0.0.1:808
 ```
 
 ## 💻 Technology Stack
-    * Core Logic: Rust, Tokio
-    * Consensus: Custom BFT (Tendermint-style) + VRF Proposer Election
-    * L2 / ZK-SNARKs: arkworks (ark-groth16, ark-bls12-381)
-    * Cryptography:
-      * pqcrypto-dilithium (Post-Quantum Signatures)
-      * schnorrkel (VRF)
-      * scrypt, XChaCha20Poly1305 (Keystore Encryption)
-    * Smart Contracts: wasmer (WASM Runtime)
-    * Peer-to-Peer: libp2p (Gossipsub, Kademlia)
-    * RPC: tonic (gRPC) & prost
-    * Database: parity-db & trie-db (Merkle-Patricia Trie)
+   * Core Logic: Rust, Tokio
+   * Consensus: Custom BFT (Tendermint-style) + VRF Proposer Election
+   * L2 / ZK-SNARKs: arkworks (ark-groth16, ark-bls12-381)
+   * Cryptography:
+     * pqcrypto-dilithium (Post-Quantum Signatures)
+     * schnorrkel (VRF)
+     * scrypt, XChaCha20Poly1305 (Keystore Encryption)
+   * Smart Contracts: wasmer (WASM Runtime)
+   * Peer-to-Peer: libp2p (Gossipsub, Kademlia)
+   * RPC: tonic (gRPC) & prost
+   * Database: parity-db & trie-db (Merkle-Patricia Trie)
+
 
 
